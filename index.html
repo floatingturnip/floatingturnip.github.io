@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Portfolio 2.0</title>
+    <title>Michelle Li</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Projects-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -22,7 +24,7 @@
                     <div class="collapse navbar-collapse"
                         id="navcol-1">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Blog</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="https://www.notion.so/ba377fd102c44e479be7c2371a98e205?v=73f75401d36f4241a98c722409300486">Blog</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#">Resume</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#"></a></li>
                         </ul>
@@ -32,8 +34,8 @@
             <div class="container hero">
                 <div class="row">
                     <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
-                        <h1 style="margin: 120px 0px 24px;">About me</h1>
-                        <p>My name is Michelle Li, I am currently a second year Engineering Physics student at UBC.&nbsp;</p><button class="btn btn-light btn-lg action-button" type="button">Learn More</button></div>
+                        <h1 style="margin: 120px 0px 24px;">Michelle Li</h1>
+                        <p>A third year Engineering Physics student at UBC.</p><button class="btn btn-light btn-lg action-button" type="button">Learn More</button></div>
                     <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
                         <div></div>
                         <div class="text-center iphone-mockup" style="height: 250px;margin: 40px 48px;padding: 10px;width: 300px;"><img class="device" src="assets/img/20190501_103546_HDR%20(2).jpg" style="width: 280px;"></div>
@@ -46,46 +48,111 @@
     <div class="projects-clean">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Featured Projects </h2>
-                <p class="text-center">Below are some of my featured projects</p>
+                <h2 class="text-center">Projects </h2>
+                <p class="text-center">Click on a project for more details</p>
             </div>
             <div class="row projects">
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/20190201_080302-1%20(3).jpg">
-                    <h3 class="name">Robotic Claw</h3>
-                    <p class="description">A robotic claw made using an arduino and sheet metal</p>
+                <div class="col-sm-6 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#robotic-claw">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/20190201_080302-1%20(3).jpg"></div>
+                        <h3 class="name">Robotic Claw</h3>
+                        <p class="description">A robotic claw made using an arduino and sheet metal</p>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/20191125_152801%20(2).jpg">
-                    <h3 class="name">Servo Motor</h3>
-                    <p class="description">This is a servo motor circuit designed</p>
+                <div class="col-sm-6 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#servo-motor">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/20191125_152801%20(2).jpg"></div>
+                        <h3 class="name">Servo Motor</h3>
+                        <p class="description">A circuit designed to control a servo motor</p>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/Counsel%20Connect2%20(2).JPG">
-                    <h3 class="name">Counsel Connect</h3>
-                    <p class="description">A website that allows users to connect with other people to have discussions on mental health</p>
+                <div class="col-sm-6 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/Eco%20eats.jpg"></div>
+                        <h3 class="name">Eco Eats</h3>
+                        <p class="description">An mobile app that uses photo recognition to determine the environmental impact of your food</p>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/Eco%20eats.jpg">
-                    <h3 class="name">Eco Eats</h3>
-                    <p class="description">An mobile app that uses photo recognition to determine the environmental impact of your food</p>
+                <div class="col-sm-6 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#counsel-connect">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/Counsel%20Connect2%20(2).JPG"></div>
+                        <h3 class="name">Counsel Connect</h3>
+                        <p class="description">Hackathon Project: A website that allows users to connect with other people to have discussions on mental health</p>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/Supermileage.jpg">
-                    <h3 class="name">UBC Supermileage</h3>
-                    <p class="description">A student design team that builts a car that achieved a fuel efficeincy of 2000 mpg</p>
+                <div class="col-sm-6 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="project-display">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/Supermileage.jpg"></div>
+                        <h3 class="name">UBC Supermileage</h3>
+                        <p class="description">A student design team that builts a car that achieved a fuel efficeincy of 2000 mpg</p>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/moodio.jpg">
-                    <h3 class="name">Mood.io</h3>
-                    <p class="description">A journal that uses language recognition to determine the mood of your journal</p>
+                <div class="col-sm-6 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/moodio.jpg"></div>
+                        <h3 class="name">Mood.io</h3>
+                        <p class="description">Hackathon project:&nbsp;A journal that uses language recognition to determine the mood of your journal</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="servo-motor">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Servo Motor</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <p>In my second year of Engineering Physics, I took a ENPH 259, an electronics lab course. As a final project, we built a circuit that could control a servo motor.&nbsp;</p>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/20191125_152801%20(2).jpg"></div>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/lab6FullCircuit.JPG"></div>
+                    <p>Paragraph</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="counsel-connect">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Counsel Connect</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <p>In my second year of Engineering Physics, I participated in UBC's local hack day, as a project we made a website that allows students to sign up to connect with each other and participate in a casual conversation</p>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/Counsel%20Connect.JPG"></div>
+                    <p>This website was a great introduction to hackathons for our team and we used this as an opportunity to learn and practice html, css and javascript</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="robotic-claw">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Robotic Claw</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <p>In my first year of engineering, for my APSC 101 course, we built a robotic claw. This was a great opportunity for me to learn how to use hand tools to cut a shape sheet metal. It was also an introduction to using Arduino</p>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/20190201_080302-1.jpg"></div>
+                    <p>In this class we held a competition to see who could score the most points. The first round was the bulk round where the claw had to pick up as many pieces of pasta as possible. In the second round, it was the density round where the
+                        claw would pick up objects of the same shape but different densities. In the third round, teams collborated with their claws to pick up as many various sized objects as they could in a short amount of time.</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
             </div>
         </div>
     </div>
     <div class="footer-basic">
         <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-linkedin-outline"></i></a><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-            <p
-                class="copyright">Michelle Li</p>
+            <div class="social"><a href="#"><i class="icon ion-social-youtube"></i></a><a href="https://www.linkedin.com/in/michelle-li-706929192/"><i class="icon ion-social-linkedin-outline"></i></a><a href="https://github.com/floatingturnip"><i class="icon ion-social-github"></i></a>
+                <a
+                    href="https://www.notion.so/ba377fd102c44e479be7c2371a98e205?v=73f75401d36f4241a98c722409300486"><i class="icon-notebook"></i></a>
+            </div>
+            <p class="copyright">Michelle Li</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>

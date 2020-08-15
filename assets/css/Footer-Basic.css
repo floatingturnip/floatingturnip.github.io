@@ -58,3 +58,13 @@
   margin-bottom: 0;
 }
 
+.project-image {
+}
+
+.project-display {
+}
+
+div.project-display:hover {
+  background-color: LightSkyBlue;
+}
+
