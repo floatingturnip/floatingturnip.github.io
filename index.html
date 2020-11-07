@@ -77,6 +77,13 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 item">
+                    <div data-bs-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#ka-ching">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/Kaching%20front.png"></div>
+                        <h3 class="name">KA-CHING</h3>
+                        <p class="description">An mobile app that teaches children to save money through a game</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item">
                     <div data-bs-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#eco-eats">
                         <div class="project-image"><img class="img-fluid" src="assets/img/Eco%20eats.jpg"></div>
                         <h3 class="name">Eco Eats</h3>
@@ -147,6 +154,14 @@
                 <div class="modal-header">
                     <h4 class="modal-title">UBC Supermileage</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
+                    <h4><em>September 2018-Present</em></h4>
+                    <h1>Skills</h1>
+                    <ul id="lt-skills">
+                        <li>Solidworks</li>
+                        <li>FEA Analysis</li>
+                        <li>Excel</li>
+                        <li>Machine shop</li>
+                    </ul>
                     <h1>What it is</h1>
                     <p>UBC Supermileage is an engineering student design team that builds full sized vehicles with the pursuit to maximize fuel efficiency. We have 3 vehicles on the team. A gasoline prototype vehicle, a battery electric Urban Concept vehicle,
                         and a hydrogen fuel cell prototype vehicle that is currently in the making. The Prototype category vehicles are the ones that truly maximize fuel efficiency while the Urban Concept category vehicle has some limitations and restrictions
@@ -194,16 +209,60 @@
                 <div class="modal-header">
                     <h4 class="modal-title">Self Driving Car Program</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
+                    <h4><em>September 2020-Present</em></h4>
+                    <div id="skills">
+                        <h1>Skills</h1>
+                        <ul id="lt-skills">
+                            <li>Python</li>
+                            <li>ROS</li>
+                            <li>Linux</li>
+                            <li>Ubuntu</li>
+                            <li>OpenCV</li>
+                            <li>Keras</li>
+                        </ul>
+                    </div>
                     <h4>What it is</h4>
                     <p>This is my machine learning class project for ENPH 353 running from Sept 2020 to Dec 2020 which is currently still in progress. The class is a&nbsp;guided, <strong><span style="text-decoration: underline;">self-directed</span></strong>                        project-course to practice some of the most recent techniques and developments in control software and data classification. This page will be updated as the project progresses. All the labs that we work on eventually lead up to
                         a program for a self driving car. It operates in the Linux and Ubutu environment and uses Python and OpenCV for image detection and computer recognition. The competition will run in simulation on ROS Melodic.<br></p>
-                    <h4>Lab 2 - Sept 16 2020</h4>
-                    <p>Below you will find the outcome of one of the first labs in the course. This is a line following program that is based on a video input. It uses Python and Open CV to detect the colour differences in the video and determine where the
-                        line is.</p>
-                    <div class="container-fluid"><iframe allowfullscreen="" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/1qElKCn2-VA"></iframe></div>
-                    <h4>Lab 3 - Sept 23 2020</h4>
-                    <p>The goal of this lab was to build a simulated robot and world and implement line following from camera feedback using CV and PID. Additionally this allowed me to get familiar with the working with ROS architecture</p>
-                    <div class="container-fluid"><iframe allowfullscreen="" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/68Ve8pGTOXU"></iframe></div>
+                    <div id="Lab2">
+                        <h4>Lab 2 - Sept 16 2020</h4>
+                        <p>Below you will find the outcome of one of the first labs in the course. This is a line following program that is based on a video input. It uses Python and Open CV to detect the colour differences in the video and determine where
+                            the line is.</p>
+                        <div class="container-fluid"><iframe allowfullscreen="" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/1qElKCn2-VA"></iframe></div>
+                    </div>
+                    <div id="Lab3">
+                        <h4>Lab 3 - Sept 23 2020</h4>
+                        <p>The goal of this lab was to build a simulated robot and world and implement line following from camera feedback using CV and PID. Additionally this allowed me to get familiar with the working with ROS architecture</p>
+                        <div class="container-fluid"><iframe allowfullscreen="" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/68Ve8pGTOXU"></iframe></div>
+                        <p></p>
+                    </div>
+                    <div id="Lab4">
+                        <h4>Lab 4 - Sept 30 2020</h4>
+                        <p>The goal of this lab was&nbsp;to develop an application that given a template image of an object will highlight the object in a live web camera stream. Through this lab I learned how to set up a GUI with PyQt, and then implemented
+                            a homography based tracker using SIFT<br></p>
+                        <div class="container-fluid">
+                            <picture><img class="img-fluid" src="assets/img/ENPH353Lab4-1.png"></picture>
+                            <p>Key features being tracked</p>
+                            <picture><img class="img-fluid" src="assets/img/ENPH353Lab4-2.png"></picture>
+                        </div>
+                        <p>With homography, and enough key points, it is able to recognize that it is the same image</p>
+                    </div>
+                    <div id="Lab5">
+                        <h4>Lab 5 - October 7 2020</h4>
+                        <p>The goal of this lab was&nbsp;to develop a Convolutional Neural Network using Keras for license plate identification<br></p>
+                        <div class="container-fluid">
+                            <picture><img class="img-fluid" src="assets/img/enph353%20model.png"></picture>
+                            <p>The parameters of the model</p>
+                            <picture><img class="img-fluid" src="assets/img/ConfusionMatrix.png"></picture>
+                        </div>
+                        <p>The confusion matrix used to test the validity of the model</p>
+                    </div>
+                    <div id="Lab6">
+                        <h4>Lab 6 - October 21 2020</h4>
+                        <p>The goal of this lab was to use Q-learning to teach a robot to follow a line</p>
+                        <div class="container-fluid"><iframe allowfullscreen="" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/3PKjTez84fY"></iframe></div>
+                        <p></p>
+                    </div>
                     <p></p>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
@@ -230,6 +289,9 @@
                     </div>
                     <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot%20circuit.jpg" width="500">
                         <p>A picture of the PCB layout of the robot</p>
+                    </div>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/ENPH%20253%20schematics.jpg" width="500">
+                        <p>A schematic of the H-bridge PCB board</p>
                     </div>
                     <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot%202.jpg" width="500">
                         <p></p>
@@ -259,6 +321,28 @@
                         we finally made a working product that we were proud of.<br><br>To our surprise, after the initial round of judging, we found out that we were amongst the finalists and would be doing a demo in front of everyone. We were all very
                         excited about this. We ended up winning the Best Search Engine Experience Award. Overall this was a very exciting experience for all of us and a great opportunity to learn.&nbsp;</p>
                     <div class="container-fluid"><img class="img-fluid" src="assets/img/Eco%20eats.jpg"></div>
+                    <p></p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="ka-ching">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">KA-CHING</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <h1>What it Does</h1>
+                    <p>KA-CHING is a mobile gaming app made with Flutter that teaches children about saving money&nbsp;</p>
+                    <h1>The Story</h1>
+                    <p>This is an app that I made during Dub-Hacks 2020, an online 24-hour hackathon.<br>&nbsp;<br>I teamed up with a friend from my computer engineering class, a friend from outside of school and two other people we met through a team formation
+                        event the night before the hackathon.<br><br>Prior to the hackathon, we met up online to brainstorm some ideas and when we agreed to make a mobile app, we went to make sure we had all the software we needed installed properly to
+                        ensure things would go smoothly.<br><br>This was my very first time using Flutter so I was a little lost on the overall structure but I was told that it was similar relatively similar to Java and one of my teammates was able to
+                        walk me through some of her code to help me get started. Overall it was a great learning experience and I'm glad to have learned a new skill that can help me in future hackathons and projects<br><br>After a few struggles and challenges
+                        and a lot of googling and watch video tutorials, we finally made a working product that we were proud of. There was the additional challenge of having one of our teammates in a different time zone than us so this made communication
+                        a little more difficult but we were happy that we were able to make it work<br><br></p>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/Kaching%20front.png"></div>
                     <p></p>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>

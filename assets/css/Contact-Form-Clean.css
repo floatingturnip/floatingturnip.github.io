@@ -98,3 +98,25 @@
   background-color: #b1f7f7;
 }
 
+ul#lt-skills li {
+  /*margin-block-start: 1em;*/
+  /*margin-block-end: 1em;*/
+  /*margin-inline-start: 0px;*/
+  /*margin-inline-end: 0px;*/
+  /*padding-inline-start: 40px;*/
+  /*list-style: none;*/
+  /*list-style-position: initial;*/
+  /*list-style-image: initial;*/
+  /*list-style-type: none;*/
+  display: inline-block;
+  border-style: none;
+  font-size: 1em;
+  margin-right: 3px;
+  padding: .3rem;
+  border-radius: 2px;
+  color: #111111;
+  background-color: #a7f1f1;
+  margin-bottom: .2em;
+  font-weight: 700;
+}
+
