@@ -148,3 +148,7 @@ button {
   background-color: rgb(98,102,186);
 }
 
+.hightlight-phone, h3 {
+  font-weight: bold;
+}
+
