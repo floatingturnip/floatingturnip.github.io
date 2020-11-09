@@ -120,3 +120,31 @@ ul#lt-skills li {
   font-weight: 700;
 }
 
+.btn-primary {
+  margin-right: 3px;
+}
+
+.btn-success {
+  margin-right: 3px;
+}
+
+.btn-info {
+  margin-right: 3px;
+}
+
+button {
+  margin-right: 3px;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.btn-framework {
+  background-color: rgb(129,134,246);
+  color: white;
+}
+
+.btn-framework:hover {
+  color: white;
+  background-color: rgb(98,102,186);
+}
+
