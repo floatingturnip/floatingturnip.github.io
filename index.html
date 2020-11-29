@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
@@ -40,11 +42,12 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
                         <h1 style="margin: 120px 0px 24px;font-weight: 500;">Michelle Li</h1>
-                        <p>A third year Engineering Physics student at the University of British Columbia with an interest in innovative technology, sustainability and art</p>
+                        <p>Hello! I am a third year Engineering Physics student at the University of British Columbia with an interest in innovative technology, sustainability and art</p>
+                        <p>I am interested in the integration of electro-mechanical design and software development, particularly, systems, mechatronics, and firmware engineering.&nbsp; Additionally I have an keep interest in the field of renewable energy.<br><br></p>
                     </div>
                     <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
                         <div></div>
-                        <div class="text-center iphone-mockup" style="height: 250px;margin: 40px 48px;padding: 10px;width: 300px;"><img class="device" src="assets/img/20200809_124320%20(2).jpg" style="width: 280px;"></div>
+                        <div class="text-center iphone-mockup" style="height: 250px;margin: 40px 48px;padding: 10px;width: 300px;"><img id="front-img" class="device" src="assets/img/20200809_124320%20(2).jpg" style="width: 280px;"></div>
                     </div>
                 </div>
             </div>
@@ -195,16 +198,20 @@
                     <h4 class="modal-title">UBC Supermileage</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
                     <h4><em>September 2018-Present</em></h4>
-                    <h1>Skills</h1><button class="btn btn-dark" type="button">Solidworks</button><button class="btn btn-dark" type="button">FEA Analysis</button><button class="btn btn-info" type="button">Excel</button><button class="btn btn-info" type="button">MATLAB</button>
-                    <button
-                        class="btn btn-secondary" type="button">Machine Shop</button>
+                    <div>
+                        <p>Visit the UBC Supermileage webpage to learn more<br></p><a class="btn btn-primary" role="button" href="https://www.supermileage.ca/" target="_blank">UBC Supermileage Home Page</a></div>
+                    <div>
+                        <h1>Skills</h1><button class="btn btn-dark" type="button">Solidworks</button><button class="btn btn-dark" type="button">FEA Analysis</button><button class="btn btn-info" type="button">Excel</button><button class="btn btn-info" type="button">MATLAB</button>
+                        <button
+                            class="btn btn-secondary" type="button">Machine Shop</button>
+                    </div>
+                    <div>
                         <h1>What it is</h1>
                         <p>UBC Supermileage is an engineering student design team that builds full sized vehicles with the pursuit to maximize fuel efficiency. We have 3 vehicles on the team. A gasoline prototype vehicle, a battery electric Urban Concept
                             vehicle, and a hydrogen fuel cell prototype vehicle that is currently in the making. The Prototype category vehicles are the ones that truly maximize fuel efficiency while the Urban Concept category vehicle has some limitations
                             and restrictions that make it more closely resembled to vehicles on the road. In 2019 we place 2nd in our competition achieving a fuel efficiency 2229 mpg. I am currently a project lead in the Powertrain division where I work
                             on projects related to the drivetrain such as selecting an efficient motor for our new fuel cell powered vehicle, determining chain and sprocket configurations, and designing light weight mounts and guards for the motor and
                             the chains. Our parts are modeled using Solidworks and we often machine the parts ourselves using machine shop tools such as waterjet, 3D printer, lathe, mill<br></p>
-                        <p>Visit the UBC Supermileage webpage to learn more<br></p><a class="btn btn-primary" role="button" href="https://www.supermileage.ca/" target="_blank">UBC Supermileage Home Page</a>
                         <p><br></p>
                         <h1>The story</h1>
                         <p>In my first year of engineering, I joined a student design team known as UBC Supermileage. During that time I learned how to design and model using solidworks as well as run simulations and learn more about mechanical design in
@@ -215,7 +222,9 @@
                             being on the team, is that I was given the opportunity to drive our prototype vehicle. From first hand experience, I can definitely say that it is very interesting and a completely different feeling from driving a normal car.
                             When driving this car, you wear a fire suit, fire shoes and a certified drivers helmet for safety measures. You need to be lying down on hard chassis (with no cushioning because that adds weight to the vehicle making it less
                             efficient) with your neck craned at a 90 degree angle to peer through the window in front of you<br><br></p>
-                        <p><br></p>
+                        <p></p>
+                    </div>
+                    <div>
                         <div class="container-fluid"><img class="img-fluid" src="assets/img/Supermileage.jpg" width="600">
                             <p>A photo of our battery electric urban concept vehicle</p>
                         </div>
@@ -234,6 +243,7 @@
                         <div class="container-fluid"><img class="img-fluid" src="assets/img/FuelCellDrivetrainTop.png">
                             <p>A top view of our fuel cell drivetrain in Solidworks. Design and iterations are still in progress</p>
                         </div>
+                    </div>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
             </div>
@@ -307,31 +317,37 @@
                     <h4 class="modal-title">Recycling Robot</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
                     <h4><em>May 2020 - Present</em></h4>
+                    <div>
+                        <h5>External Links:</h5><a class="btn btn-primary" role="button" href="https://github.com/floatingturnip/RecyclingRobot" target="_blank">Github&nbsp;<i class="fa fa-github"></i></a></div>
                     <div id="skills-3">
                         <h2>Skills</h2>
                         <div></div><button class="btn btn-info" type="button">C++</button><button class="btn btn-danger" type="button">STM32 microcontroller</button><button class="btn btn-success" type="button">Soldering</button><button class="btn btn-success"
                             type="button">Oscilloscope</button></div>
-                    <p></p>
-                    <h4>What it does</h4>
-                    <p>This is a robot that was collaboratively designed and individually built, capable of following tape, detecting, retrieving and returning soda cans to a recycling bin. On the mechanical side, It was built using hand tools and corrugated
-                        plastic. It uses a STM32 BluePill as a microcontroller and it is programmed in C++ and Arduino Framework. A PID control algorithm was implemented for tape following. I worked primarily on the electrical side of the robot which
-                        involved preparing detailed procedures and electrical schematics for teammates during build sessions which include wiring, shielding and connector plans, alongside PCB layout schematics for H-bridge and DC motor<br>circuits.<br></p>
-                    <h4>The Story</h4>
-                    <p>During the summer of my second year of engineering physics, I took a robotics class. The challenge was to design and build a robot that can pick up cans and place them into a recycling bin. Going into this class, I didn't have that
-                        much experience in robotics or electronics so I was a little nervous. Especially since the class was running online rather than it usually was in person.<br><br>Throughout the few months working on the project, I learned a lot
-                        about electronics and got a lot of hand on experience building circuits, debugging and soldering. Our team also learned a lot about remote communication during the span of the project. Since we were collaboratively working on the
-                        design of the robot but each individually building our own robot, we made sure to prepare a detailed set of instruction slides for our teammates when it was our turn to lead a build session</p>
-                    <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot.jpg" width="500">
-                        <p>A picture of the scoop mechanism of the robot</p>
-                    </div>
-                    <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot%20circuit.jpg" width="500">
-                        <p>A picture of the PCB layout of the robot</p>
-                    </div>
-                    <div class="container-fluid"><img class="img-fluid" src="assets/img/ENPH%20253%20schematics.jpg" width="500">
-                        <p>A schematic of the H-bridge PCB board</p>
-                    </div>
-                    <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot%202.jpg" width="500">
+                    <div>
                         <p></p>
+                        <h4>What it does</h4>
+                        <p>This is a robot that was collaboratively designed and individually built, capable of following tape, detecting, retrieving and returning soda cans to a recycling bin. On the mechanical side, It was built using hand tools and corrugated
+                            plastic. It uses a STM32 BluePill as a microcontroller and it is programmed in C++ and Arduino Framework. A PID control algorithm was implemented for tape following. I worked primarily on the electrical side of the robot which
+                            involved preparing detailed procedures and electrical schematics for teammates during build sessions which include wiring, shielding and connector plans, alongside PCB layout schematics for H-bridge and DC motor<br>circuits.<br></p>
+                        <h4>The Story</h4>
+                        <p>During the summer of my second year of engineering physics, I took a robotics class. The challenge was to design and build a robot that can pick up cans and place them into a recycling bin. Going into this class, I didn't have
+                            that much experience in robotics or electronics so I was a little nervous. Especially since the class was running online rather than it usually was in person.<br><br>Throughout the few months working on the project, I learned
+                            a lot about electronics and got a lot of hand on experience building circuits, debugging and soldering. Our team also learned a lot about remote communication during the span of the project. Since we were collaboratively working
+                            on the design of the robot but each individually building our own robot, we made sure to prepare a detailed set of instruction slides for our teammates when it was our turn to lead a build session</p>
+                    </div>
+                    <div>
+                        <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot.jpg" width="500">
+                            <p>A picture of the scoop mechanism of the robot</p>
+                        </div>
+                        <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot%20circuit.jpg" width="500">
+                            <p>A picture of the PCB layout of the robot</p>
+                        </div>
+                        <div class="container-fluid"><img class="img-fluid" src="assets/img/ENPH%20253%20schematics.jpg" width="500">
+                            <p>A schematic of the H-bridge PCB board</p>
+                        </div>
+                        <div class="container-fluid"><img class="img-fluid" src="assets/img/Robot%202.jpg" width="500">
+                            <p></p>
+                        </div>
                     </div>
                     <p></p>
                 </div>
@@ -346,21 +362,27 @@
                     <h4 class="modal-title">Eco Eats</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
                     <h4><em>March 2020</em></h4>
+                    <div>
+                        <h5>External Links:</h5><a class="btn btn-primary" role="button" href="https://github.com/lhao03/cmdf-EcoEats" target="_blank">Github&nbsp;<i class="fa fa-github"></i></a><a class="btn btn-primary" role="button" href="https://devpost.com/software/ecoeats-sgwzhp"
+                            target="_blank">Devpost&nbsp;<i class="fab fa-dev"></i></a></div>
                     <div id="skills-2">
                         <h1>Skills</h1><button class="btn btn-info" type="button">Java</button><button class="btn btn-info" type="button">XML</button><button class="btn btn-framework" type="button">Android Studio</button><button class="btn btn-framework"
                             type="button">Google Cloud</button><button class="btn btn-primary" type="button">Computer Vision</button></div>
-                    <h1>What it Does</h1>
-                    <p>Eco Eats is a hackathon project that was created in 24 hours. It placed top 5 in the hackathon and won the Best Search Engine Experience Award. The app allows users to take a picture of their food and then it displays to the user the
-                        environmental impact of their meal in a way that can be easily understood. This includes: number of glasses of water used, CO2 emission equivalency of number of miles driven, and the CO2 emission equivalency of the number of trees
-                        required to be planted. This app was built in Android Studio using Java and it was integrated with the google cloud vision API to analyse the food in the photo. Additional research was done to build a database to store the information</p>
-                    <h1>The Story</h1>
-                    <p>In my second year of engineering physics, I participated in western Canada's largest all female hackathon known as cmd-f.&nbsp;<br><br>I teamed up with a friend from my computer engineering class and we found some other people on slack
-                        to team up with.<br><br>Prior to the hackathon, we met up online to brainstorm some ideas but we ultimately didn't decide on an idea until the hackathon began where we decided we would make an app that lets users take a picture
-                        of their food and have it calculate the water and CO2 emissions of the meal. We decided that we would make an app and although none of us had any experience with Android Studio, we agreed that we would try it out and use it as
-                        an opportunity to learn as much as we could. Throughout the process, we ran into many issues with getting things set up properly and figuring out how to use Android Studio. After getting more familiar with Android Studio, our next
-                        challenge was to get the app to open up a camera. Then we also had the issue of how to get our UI/UX design onto the app.<br><br>After many struggles and getting help from mentors and a lot of googling and watch video tutorials,
-                        we finally made a working product that we were proud of.<br><br>To our surprise, after the initial round of judging, we found out that we were amongst the finalists and would be doing a demo in front of everyone. We were all very
-                        excited about this. We ended up winning the Best Search Engine Experience Award. Overall this was a very exciting experience for all of us and a great opportunity to learn.&nbsp;</p>
+                    <div>
+                        <h1>What it Does</h1>
+                        <p>Eco Eats is a hackathon project that was created in 24 hours. It placed top 5 in the hackathon and won the Best Search Engine Experience Award. The app allows users to take a picture of their food and then it displays to the user
+                            the environmental impact of their meal in a way that can be easily understood. This includes: number of glasses of water used, CO2 emission equivalency of number of miles driven, and the CO2 emission equivalency of the number
+                            of trees required to be planted. This app was built in Android Studio using Java and it was integrated with the google cloud vision API to analyse the food in the photo. Additional research was done to build a database to store
+                            the information</p>
+                        <h1>The Story</h1>
+                        <p>In my second year of engineering physics, I participated in western Canada's largest all female hackathon known as cmd-f.&nbsp;<br><br>I teamed up with a friend from my computer engineering class and we found some other people
+                            on slack to team up with.<br><br>Prior to the hackathon, we met up online to brainstorm some ideas but we ultimately didn't decide on an idea until the hackathon began where we decided we would make an app that lets users take
+                            a picture of their food and have it calculate the water and CO2 emissions of the meal. We decided that we would make an app and although none of us had any experience with Android Studio, we agreed that we would try it out
+                            and use it as an opportunity to learn as much as we could. Throughout the process, we ran into many issues with getting things set up properly and figuring out how to use Android Studio. After getting more familiar with Android
+                            Studio, our next challenge was to get the app to open up a camera. Then we also had the issue of how to get our UI/UX design onto the app.<br><br>After many struggles and getting help from mentors and a lot of googling and
+                            watch video tutorials, we finally made a working product that we were proud of.<br><br>To our surprise, after the initial round of judging, we found out that we were amongst the finalists and would be doing a demo in front
+                            of everyone. We were all very excited about this. We ended up winning the Best Search Engine Experience Award. Overall this was a very exciting experience for all of us and a great opportunity to learn.&nbsp;</p>
+                    </div>
                     <div class="container-fluid"><img class="img-fluid" src="assets/img/Eco%20eats.jpg"></div>
                     <p></p>
                 </div>
@@ -375,6 +397,9 @@
                     <h4 class="modal-title">KA-CHING</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
                     <h4><em>October 2020</em></h4>
+                    <div>
+                        <h5>External Links:</h5><a class="btn btn-primary" role="button" href="https://github.com/emilydeutsch/KA-CHING" target="_blank">Github&nbsp;<i class="fa fa-github"></i></a><a class="btn btn-primary" role="button" href="https://devpost.com/software/ka-ching-6zi4fh"
+                            target="_blank">Devpost&nbsp;<i class="fab fa-dev"></i></a></div>
                     <div id="skills-4">
                         <h2>Skills</h2>
                         <div></div><button class="btn btn-info" type="button">Dart</button><button class="btn btn-framework" type="button">Flutter</button><button class="btn btn-framework" type="button">Android Studio</button></div>
@@ -401,18 +426,23 @@
                     <h4 class="modal-title">Mood.io</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
                     <h4><em>January 2020</em></h4>
+                    <div>
+                        <h5>External Links:</h5><a class="btn btn-primary" role="button" href="https://github.com/floatingturnip/Mood.io" target="_blank">Github&nbsp;<i class="fa fa-github"></i></a><a class="btn btn-primary" role="button" href="https://devpost.com/software/mood-journal-q930ok"
+                            target="_blank">Devpost&nbsp;<i class="fab fa-dev"></i></a></div>
                     <div id="skills-5">
                         <h2>Skills</h2>
                         <div></div><button class="btn btn-info" type="button">Python</button><button class="btn btn-framework" type="button">Flask</button><button class="btn btn-framework" type="button">Google Cloud</button></div>
-                    <h2>What it does</h2>
-                    <p>Mood.io is a digital mood journal that we made using Python, Flask, and the Google Cloud Natural Language Processor as a hacakthon project. The user can type out their journal entry in the space provided and when they enter the journal
-                        entry, Mood.io will scan the words from the journal entry to determine an overall sentiment score for the entry. The more cheerful and happy sounding the journal entry, the more positive the score and vice versa.</p>
-                    <h2>The Story</h2>
-                    <p>In my second year of engineering physics, I participated in western Canada's largest all hackathon known as nwHacks. While I've attended some hackathons in the past, this was my very first 24 hour hackathon so I was very excited.<br><br>I
-                        teamed up with a few friends in engineering physics, all of whom were first time hackers and we were all eager to learn and try something new.<br><br>Prior to the hackathon, we met up in person to brainstorm some ideas but we ultimately
-                        didn't decide on an idea until the opening ceremonies of the hackathon where we learned about some of the google cloud api's that we could use. We decided to use the google cloud natural language processor to make a mood journal.&nbsp;<br><br>After
-                        many struggles and getting help from mentors and a lot of googling, reading documentation and watching video tutorials, we finally figured out how to use the google cloud api and we made a working product that we were proud of.<br><br>Overall
-                        this was a very exciting experience for all of us and a great opportunity to learn.&nbsp;</p>
+                    <div>
+                        <h2>What it does</h2>
+                        <p>Mood.io is a digital mood journal that we made using Python, Flask, and the Google Cloud Natural Language Processor as a hacakthon project. The user can type out their journal entry in the space provided and when they enter the
+                            journal entry, Mood.io will scan the words from the journal entry to determine an overall sentiment score for the entry. The more cheerful and happy sounding the journal entry, the more positive the score and vice versa.</p>
+                        <h2>The Story</h2>
+                        <p>In my second year of engineering physics, I participated in western Canada's largest all hackathon known as nwHacks. While I've attended some hackathons in the past, this was my very first 24 hour hackathon so I was very excited.<br><br>I
+                            teamed up with a few friends in engineering physics, all of whom were first time hackers and we were all eager to learn and try something new.<br><br>Prior to the hackathon, we met up in person to brainstorm some ideas but
+                            we ultimately didn't decide on an idea until the opening ceremonies of the hackathon where we learned about some of the google cloud api's that we could use. We decided to use the google cloud natural language processor to
+                            make a mood journal.&nbsp;<br><br>After many struggles and getting help from mentors and a lot of googling, reading documentation and watching video tutorials, we finally figured out how to use the google cloud api and we made
+                            a working product that we were proud of.<br><br>Overall this was a very exciting experience for all of us and a great opportunity to learn.&nbsp;</p>
+                    </div>
                     <div class="container-fluid"><img class="img-fluid" src="assets/img/moodio.jpg" width="600"></div>
                     <div class="container-fluid"><img class="img-fluid" src="assets/img/nwHacks1.jpg" width="600">
                         <p>A picture of our team as we prepare to demo our project while holding MLH official "I demoed" stickers</p>
@@ -457,24 +487,28 @@
                     <h4 class="modal-title">Robotic Claw</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
                     <h4><em>January 2019-February 2019</em></h4>
+                    <div>
+                        <h5>External Links:</h5><a class="btn btn-primary" role="button" href="https://github.com/floatingturnip/double-claw" target="_blank">Github&nbsp;<i class="fa fa-github"></i></a></div>
                     <div id="skills-7">
                         <h2>Skills</h2>
                         <div></div><button class="btn btn-info" type="button">C++</button><button class="btn btn-danger" type="button">Arduino</button><button class="btn btn-success" type="button">Breadboard</button><button class="btn btn-secondary" type="button">Hand tools</button></div>
-                    <h1>What it Does</h1>
-                    <p>This is a robotic claw built using hand tools and sheet metal and programmed using an Arduino controller</p>
-                    <h1>The Story</h1>
-                    <p>In my first year of engineering, for my APSC 101 course, we built a robotic claw. This was a great opportunity for me to learn how to use hand tools to cut a shape sheet metal. It was also an introduction to using Arduino as well as
-                        follow the engineering design process and work as a team.&nbsp;</p>
-                    <p>In this class we held a competition to see who could score the most points. The first round was the bulk round where the claw had to pick up as many pieces of pasta as possible. In the second round, it was the density round where the
-                        claw would pick up objects of the same shape but different densities. In the third round, teams collaborated with their claws to pick up as many various sized objects as they could in a short amount of time.<br><br>Our team decided
-                        to do designs and concept generation, prototyping and iteration together and when it came to building the claw, we split up to work on two separate claws, one for the density round and one for the round. My main role was designing
-                        the closing mechanism for the density round claw and writing the code that was used for both claws. Our team's claw was able to pick up most of the objects in the density round. And we were quite satisfied with our performance</p>
-                    <div
-                        class="container-fluid"><img class="img-fluid" src="assets/img/20190201_080302-1.jpg" width="500"></div>
+                    <div>
+                        <h1>What it Does</h1>
+                        <p>This is a robotic claw built using hand tools and sheet metal and programmed using an Arduino controller</p>
+                        <h1>The Story</h1>
+                        <p>In my first year of engineering, for my APSC 101 course, we built a robotic claw. This was a great opportunity for me to learn how to use hand tools to cut a shape sheet metal. It was also an introduction to using Arduino as well
+                            as follow the engineering design process and work as a team.&nbsp;</p>
+                        <p>In this class we held a competition to see who could score the most points. The first round was the bulk round where the claw had to pick up as many pieces of pasta as possible. In the second round, it was the density round where
+                            the claw would pick up objects of the same shape but different densities. In the third round, teams collaborated with their claws to pick up as many various sized objects as they could in a short amount of time.<br><br>Our
+                            team decided to do designs and concept generation, prototyping and iteration together and when it came to building the claw, we split up to work on two separate claws, one for the density round and one for the round. My main
+                            role was designing the closing mechanism for the density round claw and writing the code that was used for both claws. Our team's claw was able to pick up most of the objects in the density round. And we were quite satisfied
+                            with our performance</p>
+                    </div>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/20190201_080302-1.jpg" width="500"></div>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
             </div>
-            <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
         </div>
-    </div>
     </div>
     <div class="modal fade" role="dialog" tabindex="-1" id="counsel-connect">
         <div class="modal-dialog modal-lg" role="document">
@@ -483,14 +517,18 @@
                     <h4 class="modal-title">Counsel Connect</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
                 <div class="modal-body">
                     <h4><em>December 2019</em></h4>
+                    <div>
+                        <h5>External Links:</h5><a class="btn btn-primary" role="button" href="https://github.com/Kojon74/Mental-Health-NW-Hacks-2019" target="_blank">Github&nbsp;<i class="fa fa-github"></i></a></div>
                     <div id="skills-1">
                         <h2>Skills</h2>
                         <div></div><button class="btn btn-info" type="button">HTML</button><button class="btn btn-info" type="button">CSS</button><button class="btn btn-info" type="button">JavaScript</button></div>
-                    <h2>What it does</h2>
-                    <p>Counsel Connect is a concept website made with html, css and javascript to connect students with each other to chat about mental health related topics as part of a 12 hour hackathon project&nbsp;</p>
-                    <h2>The Story</h2>
-                    <p>In my second year of Engineering Physics, I participated in UBC's local hack day, as a project we made a website that allows students to sign up to connect with each other and participate in a casual conversation</p>
-                    <p>This website was a great introduction to hackathons for our team and we used this as an opportunity to learn and practice html, css and javascript</p>
+                    <div>
+                        <h2>What it does</h2>
+                        <p>Counsel Connect is a concept website made with html, css and javascript to connect students with each other to chat about mental health related topics as part of a 12 hour hackathon project&nbsp;</p>
+                        <h2>The Story</h2>
+                        <p>In my second year of Engineering Physics, I participated in UBC's local hack day, as a project we made a website that allows students to sign up to connect with each other and participate in a casual conversation</p>
+                        <p>This website was a great introduction to hackathons for our team and we used this as an opportunity to learn and practice html, css and javascript</p>
+                    </div>
                     <div class="container-fluid"><img class="img-fluid" src="assets/img/Counsel%20Connect.JPG"></div>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
