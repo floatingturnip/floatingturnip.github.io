@@ -150,6 +150,13 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 item">
+                    <div data-bss-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#paperhomes">
+                        <div class="project-image"><img class="img-fluid" src="assets/img/FizzBeans4.jpg"></div>
+                        <h3 class="name">Fizz Beans</h3>
+                        <p class="description">A coffee chat program used to bring the UBC Engineering Physics community together<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 item">
                     <div data-bss-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#pillvisor">
                         <div class="project-image"><img class="img-fluid" src="assets/img/Pillvisorpic.png"></div>
                         <h3 class="name">Pillvisor</h3>
@@ -203,13 +210,6 @@
                         <div class="project-image"><img class="img-fluid" src="assets/img/RobotClaw.jpg"></div>
                         <h3 class="name">Robotic Claw</h3>
                         <p class="description">A robotic claw made using an arduino and sheet metal</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4 item">
-                    <div data-bss-hover-animate="pulse" class="project-display" data-toggle="modal" data-target="#counsel-connect">
-                        <div class="project-image"><img class="img-fluid" src="assets/img/Counsel%20Connect2%20(2).JPG"></div>
-                        <h3 class="name">Counsel Connect</h3>
-                        <p class="description">Hackathon Project: A website that allows users to connect with other people to have discussions on mental health</p>
                     </div>
                 </div>
             </div>
@@ -292,6 +292,9 @@
                         </div>
                         <div class="container-fluid"><img class="img-fluid" src="assets/img/3DpcbRendering.png" style="width: 600px;">
                             <p>A rendering of our Fuel Cell Control PCB</p>
+                        </div>
+                        <div class="container-fluid"><iframe allowfullscreen="" frameborder="0" width="560" height="315" src="https://www.youtube.com/embed/tgdQZLM6KDU"></iframe>
+                            <p>Our soldering session for the Fuel Cell Control PCB</p>
                         </div>
                     </div>
                 </div>
@@ -416,6 +419,34 @@
                         </div>
                     </div>
                     <p></p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="fizz-beans">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Fizz Beans</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <h4><em>February 2021</em></h4>
+                    <div>
+                        <h5>External Links:<br></h5>
+                        <p>Github link is private but sections of the code can be made available upon request</p>
+                    </div>
+                    <div id="skills-9">
+                        <h1>Skills</h1><button class="btn btn-info" type="button">Python</button><button class="btn btn-info" type="button">Bash/Shell</button><button class="btn btn-info" type="button">Html</button><button class="btn btn-framework" type="button">Google Cloud</button><button class="btn btn-framework" type="button">Twilio Sendgrid</button>
+                    </div>
+                    <div>
+                        <h1>What it Does</h1>
+                        <p>Fizz Beans is a weekly opt-in casual coffee chat program that is open to students, staff, and alumni the are part of UBC Engineering Physics (also know as Fizz). It aims to build connections amongst the Fizz community and allow people to practice networking as well. I currently run and maintain it with a small team of 4 other students.<br><br>It currently operates as a series of python scripts that are automated on a Google Cloud VM. It utilizes the Google Sheets API to retrieve the users information from the sign up form and it uses the Twilio Sendgrid API to send emails. Email templates are rendered in html.<br><br>Credit goes to the original contributors: Tiffany Quon, Zara Lim for getting everything started. And to Yelp Beans, which the code is heavily based off of.</p>
+                        <h1>The Story</h1>
+                        <p>During the summer of my second year of Engineering Physics, Covid-19 had just hit and classes were moved online. This summer was supposed to be considered the "Robot summer" for my cohort where we spend the summer in the lab with our fellow classmates completing a hands on robotics course along with a few other academic courses. And it was also known to be the summer where our classmates bond and get much closer. <br><br>However, since this summer was online, there was quite a lot of disconnect in my year. I wanted to do something to about it, so I reached out to Tiffany who had started Fizz Beans a couple of months ago about how I wanted to run something similar specifically for my year. Since I wanted to get something running quickly, she recommended starting off with posting a spreadsheet of names and matches each week. However a few of my classmates were concerned about privacy and didn't want a spreadsheet posted and I didn't want that to be a barrier for them to sign up so I ended up DM-ing people their matches once a week instead. Manually DM-ing people wasn't too bad since we were a small class so there weren't too many messages that I needed to send and there weren't too many weeks during the summer either. I made a simple MATLAB script that would take a set of names and randomly shuffle and pair names up. In retrospect though, the manual sending of the matches got quite tiring and tedious.<br><br>I ended up calling this "Robochat" because it was a casual chatting program that ran during our Robot summer.&nbsp;<br><br>As September was approaching, seeing how successful and useful Robochat&nbsp;was over the summer I wanted to ensure that Fizz Beans continued to run during the school year, especially since the school term was still online. Tiffany was graduating soon and wanted to pass on Fizz Beans to someone else and since I ran robochat over the summer, I set up a meeting with her and a few other people in my year who were interested in keeping it running.<br><br>Tiffany was very helpful in showing us how Fizz Beans works, how to get everything set up and how the code works and we were able to start Fizz Beans up again for the new school year.&nbsp;&nbsp;<br><br>Throughout the year, we made some improvements to the matching algorithm by adding some more randomization to matches, allowing the option for same year matching, and matching into a group of 3 when there was an odd number so someone didn't get left out. We also made shell scripts so that the code could be run more easily. It was also tedious to run a couple of commands each week so we looked into automating that process as well. One option was running a cronjob on our laptop but that required the machine to be one during that time. Another option was using heroku to run a few scripts. However, that required storing our match data somewhere online, otherwise it would get reset each day and we didn't have much experience with databases at that time. So we had someone from our team look into databases during their free time so that we could keep that option open in the future. While searching, I discovered a tutorial on automating python scripts on a google cloud VM so I decided to try it out. After following the tutorial, (and running into a few issues along the way), I was able to automate python script using a cronjob on the VM. So I pulled the code for fizz beans onto there and we were able to run it automatically the following week.<br><br>We're continuing to make improvements to the matching algorithm and the overall code and we're looking for another potential method to automate the scripts.</p>
+                    </div>
+                    <div class="container-fluid"><img class="img-fluid" src="assets/img/FizzBeans.png"></div>
+                    <p><br></p>
                 </div>
                 <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
             </div>
